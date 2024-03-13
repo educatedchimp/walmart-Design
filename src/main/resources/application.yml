@@ -1,0 +1,23 @@
+# Sample application.yml
+
+# Server settings
+server:
+  port: 8080
+
+# Application settings
+app:
+  name: walmartDesignApp
+  version: 1.0
+
+# Database configuration
+database:
+  driver-class-name: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/mydatabase
+  username: myuser
+  password: mypassword
+
+# Logging configuration
+logging:
+  level:
+    root: info
+    com.walmart: debug
