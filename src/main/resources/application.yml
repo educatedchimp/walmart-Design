@@ -9,6 +9,20 @@ app:
   name: walmartDesignApp
   version: 1.0
 
+com:
+  walmart:
+    inventory:
+      electronics:
+        count: 20
+        price: 2000
+      books:
+        count: 30
+        price: 300
+      apparel:
+        count: 40
+        price: 700
+
+
 # Database configuration
 database:
   driver-class-name: com.mysql.cj.jdbc.Driver
@@ -21,3 +35,5 @@ logging:
   level:
     root: info
     com.walmart: debug
+
+
